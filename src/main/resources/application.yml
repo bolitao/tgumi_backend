@@ -1,0 +1,9 @@
+spring:
+  devtools:
+    restart:
+      poll-interval: 1500ms
+      quiet-period: 1200ms
+  profiles:
+    active: default
+server:
+  port: 8899
