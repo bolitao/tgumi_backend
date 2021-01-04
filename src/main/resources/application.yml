@@ -4,6 +4,6 @@ spring:
       poll-interval: 1500ms
       quiet-period: 1200ms
   profiles:
-    active: default
+    active: TEMPLATE
 server:
   port: 8899
